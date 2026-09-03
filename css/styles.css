@@ -8,4 +8,59 @@
 
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container,
+.hero-container,
+.footer-container {
+    background-color: #1F2937;
+    color:aliceblue;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button,
+.cta-container {
+    background-color: #3882F6;
+}
+
+.title-features {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-container, 
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+    font-style: normal;
 }
