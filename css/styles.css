@@ -37,6 +37,20 @@ a {
     padding: 18px;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 48px;
+}
+
+.hero-left {
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
+    gap: 12px;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
