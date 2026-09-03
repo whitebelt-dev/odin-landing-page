@@ -12,11 +12,20 @@ body {
     flex-direction: column;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 .header-container,
 .hero-container,
 .footer-container {
     background-color: #1F2937;
-    color:aliceblue;
+    color: #F9FAF8;
 }
 
 .header-logo {
