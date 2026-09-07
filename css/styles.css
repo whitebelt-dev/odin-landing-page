@@ -52,6 +52,12 @@ a {
     gap: 12px;
 }
 
+.hero-right {
+    width: 500px;
+    height: 200px;
+    border: 1px solid grey;
+}
+
 .features-container {
     display: flex;
     flex-direction: column;
